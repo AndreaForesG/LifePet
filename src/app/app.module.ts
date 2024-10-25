@@ -7,7 +7,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CreatePostsComponent } from './components/create-posts/create-posts.component';
 import { HomeComponent } from './components/home/home.component';
 import { FormsModule } from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -18,10 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
