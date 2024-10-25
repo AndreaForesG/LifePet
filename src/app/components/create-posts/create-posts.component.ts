@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NotificationService } from '../../services/notification.service';
 import { PostService } from 'src/app/services/post.service';
 
 
@@ -18,7 +17,7 @@ export class CreatePostsComponent implements OnInit {
 
 
   constructor(private postService: PostService,
-              private notificationService : NotificationService,
+    
     
   ) { }
 
@@ -35,7 +34,6 @@ export class CreatePostsComponent implements OnInit {
     
     // Simular la adición de la publicación en el array de publicaciones
     this.postService.addPost(newPost);
-    this.notificationService.showNotification("Publicación creada con éxito");
     
     // Reiniciar el formulario
     this.post = {

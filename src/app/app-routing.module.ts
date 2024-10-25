@@ -6,6 +6,7 @@ import { HomeComponent } from './components/home/home.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'create-post', component: CreatePostsComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
