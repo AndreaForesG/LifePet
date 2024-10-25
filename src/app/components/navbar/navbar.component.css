@@ -1,0 +1,12 @@
+.navbar {
+    margin-bottom: 20px; /* Espacio debajo del navbar */
+  }
+  
+  .nav-link {
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Color al pasar el mouse */
+  }
+  

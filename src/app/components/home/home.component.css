@@ -1,0 +1,13 @@
+
+.container {
+    margin-top: 20px;
+  }
+  
+  h1 {
+    color: #007bff; /* Color del título principal */
+  }
+  
+  .card {
+    margin-bottom: 15px; /* Espacio entre tarjetas */
+  }
+  

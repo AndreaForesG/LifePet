@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Bienvenido a PetSocial</h1>
+        <p class="text-center">¡La red social para amantes de las mascotas!</p>
+        
+        <h2>Publicaciones Recientes</h2>
+        <div class="row">
+          <div class="col-md-4" *ngFor="let post of posts">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">{{ post.title }}</h5>
+                <p class="card-text">{{ post.content }}</p>
+                <button class="btn btn-success">Like</button>
+                <button class="btn btn-danger">Comment</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
